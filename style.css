@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300&display=swap');
+html{
+    background-image: linear-gradient(to right, red 0%, blue 100%);
+}
+
+#indicator{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#root{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.hangstand{
+    width: 40%;
+    position: relative;
+}
+
+.buttons-parent{
+    width: 60%;
+    padding-right:6%;
+    display: grid;
+    height: 60vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+button{
+    background-color: #fdc500;
+    border:none;
+    width: 60px;
+    height: 60px;
+    border-radius: 2px;
+    margin: 5px 8px;
+    font-size: 2rem;
+    padding: 6px 10px;
+    
+    
+}
+button:hover{
+    background-color: #ebb903;
+    cursor: pointer;
+    /* color:#fff ;  */
+}
+body{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+span{
+    display: none;
+}
+
+
+p{
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    height:40%;
+    border-bottom: 2px solid white;
+    width: 40px;
+}
+.blanks_parent {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.greenBtn,
+.greenBtn:hover{
+    background-color: green;
+    color: white;
+}
+.redBtn,
+.redBtn:hover{
+    background-color: red;
+    color: white;
+}
+ .class-1 {
+    height: 10px;
+    width: 80%;
+    background: white;
+    position: absolute;
+    bottom: 8%;
+    left: 20px;
+} 
+.class-2{
+    height: 10px;
+    width: 76vh;
+    background: white;
+    position: absolute;
+    transform: rotate(90deg);
+    left: -222px;
+    top: 53vh;
+}
+.class-3{
+    height: 10px;
+    width: 50%;
+    left: 20px;
+    background: white;
+    position: absolute;
+    top: 15%;
+}
+.class-4{
+    height: 5px;
+    width: 14vh;
+    background: white;
+    position: absolute;
+    top: 141px;
+    transform: rotate(90deg);
+    left: 180px;
+}
+.class-5{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50px;
+    top: 172px;
+    left: 176px;
+}    
+.class-6{
+    height: 10px;
+    width: 26vh;
+    background: white;
+    position: absolute;
+    transform: rotate(90deg);
+    right: 137px;
+    top: 51vh;
+}
+.class-7{
+    height: 10px;
+    width: 17vh;
+    background: white;
+    position: absolute;
+    transform: rotate(20deg);
+    right: 223px;
+    top: 53vh;
+}
+.class-8{
+    height: 10px;
+    width: 17vh;
+    background: white;
+    position: absolute;
+    transform: rotate(-20deg);
+    right: 112px;
+    top: 53vh;
+}
+.class-9{
+    height: 10px;
+    width: 17vh;
+    background: white;
+    position: absolute;
+    transform: rotate(-158deg);
+    right: 118px;
+    top: 67vh;
+}
+.class-10{
+    height: 10px;
+    width: 17vh;
+    background: white;
+    position: absolute;
+    transform: rotate(158deg);
+    right: 213px;
+    top: 67vh;
+
+} .display-none{
+    display: none;
+}
+
+
+
+
+
+
